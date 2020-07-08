@@ -20,7 +20,7 @@ const assert = require('assert');
 const extractChunks = require('./lib/extract-chunks');
 const insertLinksIntoHtml = require('./lib/insert-links-into-html');
 
-class AutoScriptPlugin {
+class AutoInjectPlugin {
   
   addLinks(compilation, htmlPluginData) {
 
@@ -65,7 +65,7 @@ class AutoScriptPlugin {
             assert(HtmlWebpackPlugin, 'Unable to find an instance of ' +
                 'HtmlWebpackPlugin in the current compilation.');
             hook = HtmlWebpackPlugin.constructor.getHooks(compilation).beforeEmit;
-          }
+          } 
 
           hook.tapAsync(
               this.constructor.name,
@@ -82,4 +82,4 @@ class AutoScriptPlugin {
   }
 }
 
-module.exports = AutoScriptPlugin;
+module.exports = AutoInjectPlugin;
