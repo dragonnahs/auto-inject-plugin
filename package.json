@@ -26,6 +26,7 @@
     "webpack",
     "plugin",
     "auto-inject-plugin",
-    "script"
+    "script",
+    "multipage"
   ]
 }
