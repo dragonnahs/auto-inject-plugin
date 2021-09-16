@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "dragonnahs <a1020948064@gmail.com>",
+  "author": "dragonnahs <1020948064@qq.com>",
   "license": "ISC",
   "devDependencies": {
     "html-webpack-plugin": "^3.2.0",
