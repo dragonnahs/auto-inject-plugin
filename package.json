@@ -1,5 +1,5 @@
 {
-  "name": "auto-inject-plugin",
+  "name": "auto-inject-plugin-updrade",
   "version": "2.0.0",
   "description": "A plugin that automatically injects dependent files.",
   "main": "index.js",
