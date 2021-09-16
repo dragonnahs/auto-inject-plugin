@@ -13,9 +13,9 @@
     "webpack": "^4.0.0"
   },
   "peerDependencies": {
+    "html-parse-stringify2": "^2.0.1",
     "html-webpack-plugin": ">=2.26.0",
-    "webpack": ">=4.0.0",
-    "html-parse-stringify2": "^2.0.1"
+    "webpack": ">=4.0.0"
   },
   "homepage": "https://github.com/dragonnahs/auto-inject-plugin",
   "repository": {
