@@ -1,6 +1,6 @@
 {
   "name": "auto-inject-plugin-upgrade",
-  "version": "2.0.3",
+  "version": "2.0.2",
   "description": "A plugin that automatically injects dependent files.",
   "main": "index.js",
   "scripts": {
@@ -9,9 +9,13 @@
   "author": "dragonnahs <1020948064@qq.com>",
   "license": "ISC",
   "devDependencies": {
-    "html-parse-stringify2": "^2.0.1",
     "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.0.0"
+  },
+  "peerDependencies": {
+    "html-webpack-plugin": ">=2.26.0",
+    "webpack": ">=4.0.0",
+    "html-parse-stringify2": "^2.0.1"
   },
   "homepage": "https://github.com/dragonnahs/auto-inject-plugin",
   "repository": {
