@@ -18,7 +18,7 @@ yarn add -D auto-inject-plugin-upgrade
 ### Usage
 ------------
 
-Next, in your Webpack config, require() the preload plugin as follows:
+Next, in your Webpack config, require() the preload plugin as follows: 
 
 ```
 const AutoInjectPlugin = require('auto-inject-plugin-upgrade')
