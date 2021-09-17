@@ -1,6 +1,6 @@
 {
   "name": "auto-inject-plugin-upgrade",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "A plugin that automatically injects dependent files.",
   "main": "index.js",
   "scripts": {
