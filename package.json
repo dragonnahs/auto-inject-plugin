@@ -12,8 +12,8 @@
     "html-parse-stringify2": "^2.0.1"
   },
   "devDependencies": {
-    "html-webpack-plugin": "^3.2.0",
-    "webpack": "^4.0.0"
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.75.0"
   },
   "peerDependencies": {
     "html-webpack-plugin": ">=2.26.0",
